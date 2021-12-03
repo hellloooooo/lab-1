@@ -16,6 +16,6 @@ print(sum_even(a, b))
 #massiv
 mlist = [int(h) for h in input('Введите значения через пробел ').split()]
 print(min(([h for h in mlist if h>0])))
-print(sum(([h for h in mlist if h%3 and h>0 ]))) #nikak ne mogy pofixit' kratnost'
+print(sum(([h for h in mlist if h%3==0 and h>0 ]))) 
 
 print([h for h in mlist if h!=0])
